@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+
+nav {
+    
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    
+
+    
+}
+nav h3 {
+    margin-left: 10px;
+    padding: 10px 0;
+    height: fit-content;
+    color: #1090CB ;
+   
+}
+
+
+
+nav ul{
+    justify-content: space-around;
+    list-style: none;
+    display: flex;
+}
+
+nav ul li{
+   padding: 10px;
+   /* display: inline; */
+   justify-content: flex-end;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+.zrap{
+    color: #1090CB;
+}
+
+.buttonAbout-us {
+    padding: 10px 15px;
+    color: white;
+    background-color: #1090CB;
+    border-radius: 8px;
+}
+
+.Home-heder {
+    display: flex;
+    justify-content: space-between;
+    background-color: #D3EAF5;
+}
+
+.Home-heder img{
+    width: 300px;
+    height: 400px;
+
+}
+.Home-heder .content h2, h6 {
+    margin: 20px;
+} 
+
+.Home-heder .content > div {
+    display: flex;
+}
+
+.a{
+    padding: 8px 18px;
+    border: 55px #1090CB;
+    border-radius: 5px;
+    background-color: #1090CB;
+}
+
+
+ .b{
+    padding: 8px 18px;
+    border: solid 2px #1090CB;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.bar{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.webAp,.seo,.arVr,.mobileAp{
+    display: flex;
+}
+
+.webAp-ikona{
+    /* width: fit-content;
+    padding: 21px; */
+    width: 83px;
+    height: 83px;
+    padding-top: 21px;
+    padding-left: 21px;
+    background-color: #EFEAFF;
+    border-radius: 15px;
+}
+
+.seo-ikona{
+    width: 83px;
+    height: 83px;
+    padding-top: 25px;
+    padding-left: 25px;
+    background-color: #ECFFDA;
+    border-radius: 15px;
+} 
+
+.arVr-ikona{
+    width: 83px;
+    height: 83px;
+    padding-top: 25px;
+    padding-left: 25px;
+    background-color: #DAE6FF;
+    border-radius: 15px;
+}
+
+.mobileAp-ikona{
+    width: 83px;
+    height: 83px;
+    padding-top: 23px;
+    padding-left: 23px;
+    background-color: #FFE5DA;
+    border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* .oneh6{
+    
+    padding: 6px 18px;
+    border: #1090CB 2px;
+    background-color: #1090CB;
+    border-radius: 5px;
+} */
+
+/* .Home-heder .content > div h6 .twoh6{
+    
+    padding: 6px 18px;
+    border: #1090CB 2px;
+    background-color: white;
+    border-radius: 5px;
+} */
